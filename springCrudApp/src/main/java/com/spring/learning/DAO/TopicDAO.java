@@ -17,6 +17,8 @@ public class TopicDAO {
 	public List<TopicDTO> getAllTopics() {
 		return topics;
 	}
+	
+	
 
 	public TopicDTO getTopic(long id) {
 		for (int i = 0; i < topics.size(); i++) {
